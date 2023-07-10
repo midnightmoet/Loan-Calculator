@@ -11,18 +11,18 @@
         <h1 class="heading">Loan Calculator</h1>
         <p>
             <label class="label">Loan Amount $</label>
-            <input class="input" type="number" id="loan-amount" min="1" max="500000" value="10000">
+            <input onchange="calculateLoan()" class="input" type="number" id="loan-amount" min="1" max="500000" value="10000">
         </p>
         <p>
             <label class="label">Interest Rate %</label>
-            <input class="input" type="number" id="interest-rate" min="0" max="100" value="10" step=".1">
+            <input  onchange="calculateLoan()" class="input" type="number" id="interest-rate" min="0" max="100" value="10" step=".1">
         </p>
         <p>
             <label class="label">Months to pay</label>
-            <input class="input" type="number" id="months-to-pay"
+            <input  onchange="calculateLoan()" class="input" type="number" id="months-to-pay"
             min="1" max="48" value="12">
         </p>
-        <p class="payment">Monthly Payment:</p>
+        <p class="payment" id="payment"></p>
     </div>
 
     <script src="script.js"></script>
