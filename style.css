@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: darkcyan;
+    color: white;
+    padding: 20px;
+    width: 80vw;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+}
+
+.heading {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+
+.input {
+    /* border: 1px solid red; */
+    color: gray;
+    font-size: 20px;
+    font-style: italic;
+    width: 100%;
+    height: 30px;
+    margin: 10px 10px 10px 0;
+}
+
+.payment {
+    /* border: 1px solid red; */
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* I USE THE RED BORDERS TO VISUALIZE SPACE / AREA AVAILABLE / NEEDED */
